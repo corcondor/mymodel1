@@ -394,10 +394,10 @@ def main():
         DIV4=3000,
 
         Q_N=1,
-        Q_PROJ=2,
+        Q_PROJ=1,
         Q_GRID=1,
         Q_RAD=1,
-        Q_TR=2,
+        Q_TR=1,
         Q_TOPO=1,
 
         RECENTER=True,
