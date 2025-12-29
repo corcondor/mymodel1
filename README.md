@@ -1,2 +1,2 @@
 # mymodel1
-Structure-driven MNIST classifier using handcrafted raw/core/edge binary-mask features and an averaged margin perceptron. CPU-friendly, fast training, ~95% accuracy without CNNs or ViTs.
+mymodel1 は，CNN や ViT を用いず，画像の構造情報に基づいて MNIST を分類するモデルである．raw / core / edge の多層二値マスクから，単項式モーメント特徴量，カウント，遷移量，XOR 系の論理特徴を抽出し，マージン付き平均パーセプトロンで学習を行う．CPUのみで高速に動作し，約95%の精度を達成する．
